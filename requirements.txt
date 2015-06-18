@@ -1,0 +1,1 @@
+You will need these components- Linux (tested on Fedora)- MySQL (tested on MariaDB)- Python 2.7- Webserver with PHP support- Firewall access to open a port 50007
