@@ -9,7 +9,7 @@ For this to get working you will need a TPC300 from KlikAanKlikUit
 
 I would like to thank the project PyKaKu this was the basis of this project.
 
-Beforehand I must warn you I am not responsible for any damage to you system, software or Klik Aan Klik Uit hardware or any other hard and software. This is a hobby project where of you cannot get any guarantees or Quality Assurance. The project has been build under license GNU GPL v.3 any work you would like to do on this software is allowed. If you would like to contribute please do I am open for any suggestion.  
+Beforehand I must warn you I am not responsible for any damage to your system, software or Klik Aan Klik Uit hardware or any other hard and software. This is a hobby project where of you cannot get any guarantees or Quality Assurance. The project has been build under license GNU GPL v.3 any work you would like to do on this software is allowed. If you would like to contribute please do I am open for any suggestion.  
 
 In the future I wan't to add feature of the HUE Philips enviroment, so this suite can control all the light units in a house. Practical I learned that when the reach of the emmiter of the TPC300 gets bad the times that the light go ON and OFF are irregulair. In that case a amplifier of KaKu would be preferrable, this solved 2 days of debugging for me.
 
