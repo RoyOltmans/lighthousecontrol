@@ -9,7 +9,7 @@ For this to get working you will need a TPC300 from KlikAanKlikUit
 
 I would like to thank the project PyKaKu this was the basis of this project.
 
-Beforehand I must warn you I am not responsible for any damage to your system, software or Klik Aan Klik Uit hardware or any other hard and software. This is a hobby project where of you cannot get any guarantees or Quality Assurance. The project has been build under license GNU GPL v.3 any work you would like to do on this software is allowed. If you would like to contribute please do I am open for any suggestion.  
+Beforehand I must warn you I am not responsible for any damage to your system, software or Klik Aan Klik Uit hardware or any other hard and software. This is a hobby project with no guarantees or Quality Assurance. This project has been build under license GNU GPL v.3 any work you would like to do on this software is allowed. If you would like to contribute please do I am open for any suggestion.  
 
 In the future I wan't to add feature of the HUE Philips enviroment, so this suite can control all the light units in a house. Practical I learned that when the reach of the emmiter of the TPC300 gets bad the times that the light go ON and OFF are irregulair. In that case a amplifier of KaKu would be preferrable, this solved 2 days of debugging for me.
 
@@ -33,7 +33,7 @@ This means it can schedule tasks via cron with scheduled tpc300 commands when sc
 
 I made a socket service (socketservice.py this needs to run in the background as a service continuoisly) that can receive TCP requests porting it to tpc300.py this feature is thanks to hades123 from nodo-domotica. Over that a simple Post Get API was created in PHP that accepts the exact same requests and ports this to the socket service. 
 
-To get this working the www folder needs to published on a webserver that can send requests to socketservice on that (or other server running the service) server. This hase not been secured at the moment but should be if run outside of your internal network.
+To get this working the www folder needs to published on a webserver that can send requests to socketservice on that (or other server running the service) server. This hase not been hardend at the moment but should be if run outside of your internal network.
 
 Use the setup.sh for the necessary tools for python to get this project working. Requirements can be found in the requirements file.
 
